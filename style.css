@@ -4,12 +4,17 @@ ul {
     padding: 5px;
 
 }
+
 li {
     flex-direction: row;
-    padding: 1px;
+    padding: 3px;
     border: solid 2px black;
     background-color: white;
     float: left;
+    border-radius: 15px;
+}
+.active {
+    background-color: gray;
 }
 
 .li.active {
@@ -26,6 +31,7 @@ li {
     justify-content: center;
     overflow: hidden;
     background-color: gray;
+    border-radius: 15px;
 }
 
 .tabcontent {
@@ -33,6 +39,7 @@ li {
     align-self: center;
     width: 65vw;
     height: 45vh;
+    border-radius: 15px;
 
 }
 #info1 {
@@ -53,5 +60,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 1.5em;
     
 }
